@@ -28,9 +28,18 @@ Seleccionamos y estandarizamos características relevantes (e.g., Goles, Tiros, 
 Preparamos la variable objetivo para clasificar los equipos en función de victorias locales vs. visitantes.
 4. Model (Modelar)
 Entrenamos un modelo de Random Forest para clasificar victorias con los parámetros:
-n_estimators=100
-random_state=42
+- n_estimators=100
+- random_state=42
 Dividimos los datos en entrenamiento (70%) y prueba (30%).
 5. Assess (Evaluar)
 Evaluamos el modelo utilizando precisión, matriz de confusión y reporte de clasificación.
 Analizamos el rendimiento y sesgo del modelo, sugiriendo posibles optimizaciones.
+
+## Resultados
+- Precisión del modelo: 66.67% en datos de prueba.
+- Matriz de confusión: muestra la distribución de predicciones correctas e incorrectas para victorias locales y visitantes.
+- Reporte de Clasificación: precisión y recall desglosados por clase.
+## Mejoras Futuras
+- Balanceo de Clases: Implementar técnicas de balanceo para mejorar la clasificación de equipos visitantes.
+- Ajuste de Hiperparámetros: Realizar una búsqueda de hiperparámetros para mejorar el rendimiento del modelo.
+- Más Características: Incluir variables adicionales que mejoren la predicción del modelo.
