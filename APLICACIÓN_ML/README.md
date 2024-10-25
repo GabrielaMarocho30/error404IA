@@ -29,8 +29,8 @@ Preparamos la variable objetivo para clasificar los equipos en función de victo
 4. Model (Modelar)
 Entrenamos un modelo de Random Forest para clasificar victorias con los parámetros:
 
-```n_estimators=100```
-``` random_state=42```
+- ```n_estimators=100```
+- ``` random_state=42```
 Dividimos los datos en entrenamiento (70%) y prueba (30%).
 5. Assess (Evaluar)
 Evaluamos el modelo utilizando precisión, matriz de confusión y reporte de clasificación.
