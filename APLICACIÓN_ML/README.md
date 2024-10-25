@@ -33,8 +33,8 @@ Entrenamos un modelo de Random Forest para clasificar victorias con los parámet
 - ``` random_state=42```
 Dividimos los datos en entrenamiento (70%) y prueba (30%).
 5. Assess (Evaluar)
-Evaluamos el modelo utilizando precisión, matriz de confusión y reporte de clasificación.
-Analizamos el rendimiento y sesgo del modelo, sugiriendo posibles optimizaciones.
+  Evaluamos el modelo utilizando precisión, matriz de confusión y reporte de clasificación.
+  Analizamos el rendimiento y sesgo del modelo, sugiriendo posibles optimizaciones.
 
 ## Resultados
 - Precisión del modelo: 66.67% en datos de prueba.
