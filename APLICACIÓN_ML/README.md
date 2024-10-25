@@ -28,6 +28,7 @@ Seleccionamos y estandarizamos características relevantes (e.g., Goles, Tiros, 
 Preparamos la variable objetivo para clasificar los equipos en función de victorias locales vs. visitantes.
 4. Model (Modelar)
 Entrenamos un modelo de Random Forest para clasificar victorias con los parámetros:
+`console.log('n_estimators=100')`.
 - n_estimators=100
 - random_state=42
 Dividimos los datos en entrenamiento (70%) y prueba (30%).
