@@ -37,7 +37,7 @@ Entrenamos un modelo de Random Forest para clasificar victorias con los parámet
   Analizamos el rendimiento y sesgo del modelo, sugiriendo posibles optimizaciones.
 
 ## Resultados
-- Precisión del modelo: 66.67% en datos de prueba.
+- Precisión del modelo: 83.46 % en datos de prueba.
 - Matriz de confusión: muestra la distribución de predicciones correctas e incorrectas para victorias locales y visitantes.
 - Reporte de Clasificación: precisión y recall desglosados por clase.
 ## Mejoras Futuras
